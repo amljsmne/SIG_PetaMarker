@@ -2,13 +2,13 @@
 <head>
     <title>SIG Kost Bandar Lampung</title>
     <link rel="stylesheet" type="text/css" href="style.css"></link>
-    <h1><center>SIG Kost Bandar Lampung</center></h1>
+    <h1><center>Sistem Informasi Geografis Kost Bandar Lampung</center></h1>
     <script src="http://maps.googleapis.com/maps/api/js"></script>
     
 </head>
 <body>
     <div class="maps1"> 
-    <div class="maps2" id="gMap" > </div><br>
+    <div class="maps2" id="gMap" ></div><br>
     <form>
     <center><table>
     <tr>
@@ -23,7 +23,7 @@
 </table>
 <h4>Deskripsi Marker : </h4>
 <input class="maps3" type="text" id="desc" name="desc" value="">
-<br> <br>
+<br><br>
 <button class="btn" type="submit" name="Simpan" ><center>Simpan</center></button>
 </form>
 </center>
@@ -34,7 +34,7 @@
   
         function titikmarker(lokasi, titik){ 
              
-            if( marker ){ 
+            if(marker){ 
               marker.setPosition(titik); 
             } else { 
               marker = new google.maps.Marker({ 
