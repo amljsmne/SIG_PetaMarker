@@ -58,3 +58,9 @@ body {
     border-bottom: 4px;
     margin-top: -25px;
 }
+.footer {width:auto;
+    height: 10px;
+    background-color:#54310b;
+    color:white;
+    padding:20px;
+       }
