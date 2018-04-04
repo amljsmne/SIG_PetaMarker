@@ -35,16 +35,17 @@ body {
   border-radius: 5px;
   border: 2px solid #EFEFEF;
   background: #f0e8d1;
-  width: 50%;
+  width: 53%;
   height: 25%;
   box-sizing: border-box;
 }
 .maps4{
     height: 37px;
     width: 200px;
-    font-size: 18px;
+    font-size: 15px;
     background-color: #f0e8d1;
-    padding-left: 40px ;
+    padding-left: 10px ;
+    margin-right: 20px;
 }
 .btn{
     padding: 10px 30px;
