@@ -58,7 +58,9 @@ body {
     border-bottom: 4px;
     margin-top: -25px;
 }
-.footer {width:auto;
+.footer {
+    font-family: "Tempus Sans ITC";
+    width:auto;
     height: 10px;
     background-color:#54310b;
     color:white;
